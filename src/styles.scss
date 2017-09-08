@@ -1,0 +1,23 @@
+
+$color-blue: rgb(0, 57, 116);
+$color-skyblue: rgb(154, 202, 235);
+$color-golden: rgb(180, 151, 90);
+$color-black: rgb(0, 0, 0);
+$color-grey: rgb(170, 169, 170);
+
+$color-text: aliceblue;
+$color-bright-golden: rgb(255, 170, 51);
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba($color-black, .5);
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,16 @@
+@import '../../styles';
+
+.navbar-inverse {
+  background-color: $color-blue;
+  border-color: darken($color-blue, 10%);
+}
+.navbar-brand, .navbar-nav>li>a {
+  color: $color-text;
+}
+.navbar-nav>.active>a {
+  background-color: inherit;
+}
+
+.navbar-brand:hover, .navbar-nav>li>a:hover {
+  color: $color-skyblue;
+}
