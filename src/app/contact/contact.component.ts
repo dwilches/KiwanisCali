@@ -1,15 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+    selector: 'app-contact',
+    templateUrl: './contact.component.html',
+    styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+    public emailAddress = "sultanadelvalle@kiwaniscali.org";
+    public emailMailTo = `mailto:${this.emailAddress}`;
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    ngOnInit() {
+    }
 
 }

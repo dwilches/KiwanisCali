@@ -1,16 +1,41 @@
 @import '../../styles';
 
 .navbar-inverse {
-  background-color: $color-blue;
-  border-color: darken($color-blue, 10%);
+    background-color: $color-blue;
+    border-color: darken($color-blue, 10%);
+    background-image: url("/assets/navbar-bg.png");
 }
 .navbar-brand, .navbar-nav>li>a {
-  color: $color-text;
+    color: $color-text;
 }
 .navbar-nav>.active>a {
-  background-color: inherit;
+    background-color: inherit;
 }
 
 .navbar-brand:hover, .navbar-nav>li>a:hover {
-  color: $color-skyblue;
+    color: $color-skyblue;
+}
+
+.social-media-icon {
+    padding: 11px;
+}
+
+.navbar-logo {
+    padding: 5px 15px;
+}
+
+.brand-name {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.navbar-link-text {
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 11px;
+    letter-spacing: 1.2px;
+
+    &.active, &:hover {
+        border-bottom: 5px solid;
+    }
 }
