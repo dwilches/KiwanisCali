@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import * as _ from "lodash";
+declare var $: any;
 
 const NUM_PHOTOS_PER_PAGE = 6;
+const TOTAL_NUM_PHOTOS = 66;
 
 @Component({
     selector: 'app-gallery',
@@ -23,22 +25,27 @@ export class GalleryComponent implements OnInit {
     }
 
     ngOnInit() {
-        for (let i = 1; i <= 50; i++) {
-            this.photos.push(`/assets/gallery/image (${i})`);
-        }
+        this.photos = _.range(1, TOTAL_NUM_PHOTOS + 1);
         const numPages = Math.ceil(this.photos.length / NUM_PHOTOS_PER_PAGE);
         this.pages = _.range(1, numPages + 1);
     }
 
+    public getThumbUrl(numPhoto) {
+        return `/assets/gallery/image (${numPhoto})_thumb.jpg`;
+    }
+
+    public setSelectedPhoto(numPhoto) {
+        this.selectedImage = `/assets/gallery/image (${numPhoto}).jpg`;
+    }
+
     public gotoPage(page) {
         this.currentPage = page;
-
-            this.fromPhoto = (this.currentPage - 1) * NUM_PHOTOS_PER_PAGE;
+        this.fromPhoto = (this.currentPage - 1) * NUM_PHOTOS_PER_PAGE;
         this.toPhoto = this.fromPhoto + NUM_PHOTOS_PER_PAGE;
     }
 
-    public setSelectedImage(photo) {
-        this.selectedImage = photo;
+    public closeModal() {
+        $('#image-gallery').modal('toggle');
     }
 }
 
