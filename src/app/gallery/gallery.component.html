@@ -7,62 +7,47 @@
             <div *ngFor="let photo of photos | slice:fromPhoto:toPhoto" class="col-lg-4 col-md-4 col-xs-1 thumb">
                 <a class="thumbnail" href="#"
                    data-toggle="modal"
-                   data-image-id=""
-                   attr.data-image="{{photo}}.jpg"
-                   data-target="#image-gallery">
+                   data-target="#image-gallery"
+                   (click)="setSelectedImage(photo + '.jpg')">
                     <img class="img-responsive" [src]="photo + '_thumb.jpg'" alt="image">
                 </a>
             </div>
 
             <div class="clearfix"></div>
 
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Navegación páginas">
                 <ul class="pagination">
-                    <li class="page-item"
-                        [ngClass]="{disabled: currentPage === 1}">
-                        <a class="page-link" (click)="gotoPage('previous')">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                    </li>
                     <li *ngFor="let page of pages"
                         class="page-item"
                         [ngClass]="{active: currentPage === page}">
                         <a class="page-link" (click)="gotoPage(page)">{{ page }}</a>
                     </li>
-                    <li class="page-item"
-                        [ngClass]="{disabled: currentPage === pages.length}">
-                        <a class="page-link" (click)="gotoPage('next')">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </div>
 
-        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade"
+             id="image-gallery"
+             role="dialog"
+             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="image-gallery-title"></h4>
-                    </div>
                     <div class="modal-body">
-                        <img id="image-gallery-image" class="img-responsive" src="">
+                        <img id="image-gallery-image"
+                             class="img-responsive"
+                             [src]="selectedImage">
                     </div>
                     <div class="modal-footer">
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
-                        </div>
-
-                        <div class="col-md-8 text-justify" id="image-gallery-caption">
-                            This text will be overwritten by jQuery
-                        </div>
-
-                        <div class="col-md-2">
-                            <button type="button" id="show-next-image" class="btn btn-default">Next</button>
-                        </div>
+                        <nav aria-label="Navagación fotos">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" (click)="prevPhoto()">Anterior</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" (click)="nextPhoto()">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
