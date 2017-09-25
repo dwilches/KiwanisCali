@@ -23,3 +23,18 @@ body {
     padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+}
+
+.darker-container {
+    background: rgba($color-blue, 0.8);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(darken($color-blue, 50%), 0.5);
+    margin: auto;
+}

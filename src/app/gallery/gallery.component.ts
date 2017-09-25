@@ -10,6 +10,8 @@ declare let $;
 export class GalleryComponent implements OnInit {
 
     public photos = [];
+    public fromPhoto = 0;
+    public toPhoto = 6;
 
     constructor() {
         for (let i = 1; i <= 20 ; i++) {
@@ -22,6 +24,7 @@ export class GalleryComponent implements OnInit {
 
 }
 
+/*
 $(document).ready(function(){
 
     loadGallery(true, 'a.thumbnail');
@@ -36,11 +39,6 @@ $(document).ready(function(){
         }
     }
 
-    /**
-     *
-     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-     * @param setClickAttr  Sets the attribute for the click handler.
-     */
 
     function loadGallery(setIDs, setClickAttr) {
         let current_image,
@@ -78,3 +76,4 @@ $(document).ready(function(){
         });
     }
 });
+*/
