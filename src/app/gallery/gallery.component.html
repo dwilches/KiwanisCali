@@ -4,24 +4,39 @@
         <h1>Galería</h1>
 
         <div class="row vertical-align">
-            <div *ngFor="let photo of photos | slice:fromPhoto:toPhoto" class="col-lg-4 col-md-4 col-xs-1 thumb photo-margin">
+            <div *ngFor="let photo of photos | slice:fromPhoto:toPhoto" class="col-lg-4 col-md-4 col-xs-1 thumb">
                 <a class="thumbnail" href="#"
                    data-toggle="modal"
+                   data-image-id=""
                    attr.data-image="{{photo}}.jpg"
                    data-target="#image-gallery">
-                    <div class="photo"
-                         [ngStyle]="{'background-image': 'url(\'' + photo + '_thumb.jpg\')'}"></div>
-                    <!--img class="img-responsive img-max-size" [src]="'/assets/gallery/' + photo" alt="image"-->
+                    <img class="img-responsive" [src]="photo + '_thumb.jpg'" alt="image">
                 </a>
             </div>
 
+            <div class="clearfix"></div>
+
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item"
+                        [ngClass]="{disabled: currentPage === 1}">
+                        <a class="page-link" (click)="gotoPage('previous')">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                    </li>
+                    <li *ngFor="let page of pages"
+                        class="page-item"
+                        [ngClass]="{active: currentPage === page}">
+                        <a class="page-link" (click)="gotoPage(page)">{{ page }}</a>
+                    </li>
+                    <li class="page-item"
+                        [ngClass]="{disabled: currentPage === pages.length}">
+                        <a class="page-link" (click)="gotoPage('next')">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -37,7 +52,6 @@
                         <img id="image-gallery-image" class="img-responsive" src="">
                     </div>
                     <div class="modal-footer">
-
                         <div class="col-md-2">
                             <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
                         </div>

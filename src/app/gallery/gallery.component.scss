@@ -4,25 +4,10 @@
     margin-top: 20px;
 }
 
-.img-max-size
-{
-    max-width: 300px;
-    max-height: 200px;
-}
-
-.photo
-{
-    width: 300px;
-    height: 200px;
-    min-width: 300px;
-    min-height: 200px;
-    background-size: cover;
-}
-
-.photo-margin
-{
-}
-
 .vertical-align {
     margin: auto auto;
+}
+
+.page-item {
+    cursor: pointer;
 }
