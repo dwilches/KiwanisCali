@@ -1,15 +1,24 @@
 <div class="row">
-        <div *ngFor="let photo of photos" class="col-lg-3 col-md-4 col-xs-6 thumb photo-margin">
-            <a class="thumbnail " href="#" data-image-id="" data-toggle="modal"
-               data-title=""
-               data-caption=""
-               attr.data-image="{{photo}}.jpg"
-               data-target="#image-gallery">
-                <div class="photo"
-                     [ngStyle]="{'background-image': 'url(\'' + photo + '_thumb.jpg\')'}"></div>
-                <!--img class="img-responsive img-max-size" [src]="'/assets/gallery/' + photo" alt="image"-->
-            </a>
-        </div>
+    <!--div class="col-lg-3 col-md-4 col-xs-6 thumb photo-margin">
+        <a class="thumbnail " href="#" data-image-id="" data-toggle="modal"
+           data-title=""
+           data-caption=""
+           attr.data-image="https://i.imgur.com/syy45H6.jpg"
+           data-target="#image-gallery">
+            <div class="photo"
+                 [ngStyle]="{'background-image': 'url(https://drive.google.com/uc?id=0B7DvUNulbbzcc1pndlgxZHBWTU0)'}"></div>
+        </a>
+    </div-->
+    <div *ngFor="let photo of photos" class="col-lg-3 col-md-4 col-xs-6 thumb photo-margin">
+        <a class="thumbnail " href="#" data-image-id="" data-toggle="modal"
+           data-title=""
+           data-caption=""
+           attr.data-image="{{photo}}.jpg"
+           data-target="#image-gallery">
+            <div class="photo"
+                 [ngStyle]="{'background-image': 'url(\'' + photo + '_thumb.jpg\')'}"></div>
+        </a>
+    </div>
 
     <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
