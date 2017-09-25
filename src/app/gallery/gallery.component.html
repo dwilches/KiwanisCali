@@ -1,29 +1,30 @@
 
 <div class="container" role="main">
     <div class="darker-container">
-    <h1>Galería</h1>
-    <div class="row vertical-align">
-        <div *ngFor="let photo of photos | slice:fromPhoto:toPhoto" class="col-lg-4 col-md-4 col-xs-1 thumb photo-margin">
-            <a class="thumbnail" href="#"
-               data-toggle="modal"
-               attr.data-image="{{photo}}.jpg"
-               data-target="#image-gallery">
-                <div class="photo"
-                     [ngStyle]="{'background-image': 'url(\'' + photo + '_thumb.jpg\')'}"></div>
-                <!--img class="img-responsive img-max-size" [src]="'/assets/gallery/' + photo" alt="image"-->
-            </a>
-        </div>
+        <h1>Galería</h1>
 
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-        </nav>
-    </div>
+        <div class="row vertical-align">
+            <div *ngFor="let photo of photos | slice:fromPhoto:toPhoto" class="col-lg-4 col-md-4 col-xs-1 thumb photo-margin">
+                <a class="thumbnail" href="#"
+                   data-toggle="modal"
+                   attr.data-image="{{photo}}.jpg"
+                   data-target="#image-gallery">
+                    <div class="photo"
+                         [ngStyle]="{'background-image': 'url(\'' + photo + '_thumb.jpg\')'}"></div>
+                    <!--img class="img-responsive img-max-size" [src]="'/assets/gallery/' + photo" alt="image"-->
+                </a>
+            </div>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
