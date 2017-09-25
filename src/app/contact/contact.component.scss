@@ -4,7 +4,7 @@
 .fa {
     // vertical-align: middle;
     padding: 0 10px;
-    color: $color-golden;
+    color: $color-bright-golden;
 }
 .contact-icon-cell {
     vertical-align: top;
@@ -29,3 +29,7 @@ td {
     text-align: left;
 }
 
+iframe {
+    border: solid $color-bright-golden;
+    margin-right: 1rem;
+}
