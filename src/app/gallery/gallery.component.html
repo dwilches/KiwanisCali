@@ -5,19 +5,19 @@
 
         <div class="row">
             <div *ngFor="let numPhoto of photos | slice:fromPhoto:toPhoto"
-                 class="col-lg-4 col-md-4 col-xs-12 thumb">
+                 class="col-lg-4 col-md-4 col-xs-12 thumbnail-container">
                 <a class="thumbnail" href="#"
                    data-toggle="modal"
                    data-target="#image-gallery"
                    (click)="setSelectedPhoto(numPhoto)">
-                    <img class="img-responsive" [src]="getThumbUrl(numPhoto)" alt="image">
+                    <img class="img-thumbnail" [src]="getThumbUrl(numPhoto)" alt="image">
                 </a>
             </div>
 
             <div class="clearfix"></div>
 
             <nav aria-label="Navegación páginas">
-                <ul class="pagination">
+                <ul class="pagination justify-content-center">
                     <li *ngFor="let page of pages"
                         class="page-item"
                         [ngClass]="{active: currentPage === page}">
@@ -27,19 +27,18 @@
             </nav>
         </div>
 
-        <div class="modal fade"
-             id="image-gallery"
+        <div id="image-gallery"
+             class="modal fade"
+             tabindex="-1"
              role="dialog"
-             aria-hidden="true"
              *ngIf="selectedImage">
-            <div class="modal-container-full-width"
+            <div class="modal-dialog modal-lg modal-dialog-centered"
+                 role="document"
                  (click)="closeModal()">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img class="img-responsive center-block"
-                                 [src]="selectedImage">
-                        </div>
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-fluid center-block big-image"
+                             [src]="selectedImage">
                     </div>
                 </div>
             </div>

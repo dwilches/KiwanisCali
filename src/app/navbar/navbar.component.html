@@ -1,38 +1,28 @@
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#" class="navbar-brand navbar-logo"><img src="/assets/small-logo.png"></a>
-      <a class="navbar-brand brand-name"
-         routerLink="/"
-         routerLinkActive="active">
-          Kiwanis Cali</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li><a class="navbar-link-text"
-               routerLink="/quienes-somos"
-               routerLinkActive="active">¿Quiénes somos?</a></li>
-        <li><a class="navbar-link-text"
-               routerLink="/galeria"
-               routerLinkActive="active">Galería</a></li>
-        <li><a class="navbar-link-text"
-               routerLink="/contactenos"
-               routerLinkActive="active">Contáctenos</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="social-media-icon"
+<nav class="navbar fixed-top navbar-expand-lg navbar-inverse bg-inverse">
+    <a class="navbar-brand" href="#">Kiwanis Cali</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li><a class="nav-item"
+                   routerLink="/quienes-somos"
+                   routerLinkActive="active">¿Quiénes somos?</a></li>
+            <li><a class="nav-item"
+                   routerLink="/galeria"
+                   routerLinkActive="active">Galería</a></li>
+            <li><a class="nav-item"
+                   routerLink="/contactenos"
+                   routerLinkActive="active">Contáctenos</a></li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <a class="social-media-icon my-2 my-sm-0"
                href="https://www.facebook.com/KiwanisSultanaDelValle"
                target="_blank">
-            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-        </a></li>
-      </ul>
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
     </div>
-  </div>
 </nav>

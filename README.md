@@ -1,6 +1,10 @@
 # KiwanisCali
 Fundación Kiwanis Sultana del Valle - Cali
 
-##Para construir:
+##Para construir y subir:
 
-    ng build --prod -op docs
+### Con imágenes
+    ng build --prod -op docs && gsutil cp -r docs/* gs://www.kiwaniscali.org
+
+### Sin imágenes
+    ng build --prod -op docs && gsutil cp docs/* gs://www.kiwaniscali.org

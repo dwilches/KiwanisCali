@@ -1,3 +1,5 @@
+@import '../../styles';
+
 .gallery
 {
     display: inline-block;
@@ -8,7 +10,7 @@
     cursor: pointer;
 }
 
-.modal-container-full-width{
+.modal-container, .modal-container-full-width{
     display: flex;
 }
 
@@ -20,7 +22,27 @@
 {
     overflow: auto;
 }
+
 .container
 {
     height: 90%;
+}
+
+nav {
+    padding-top: 10px;
+    margin: auto;
+}
+
+.thumbnail-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a.page-link, a.page-link:hover {
+    color: $color-blue;
+}
+
+.big-image {
+    max-width: 100%;
+    height: auto;
 }

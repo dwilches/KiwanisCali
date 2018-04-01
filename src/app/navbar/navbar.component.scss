@@ -8,9 +8,6 @@
 .navbar-brand, .navbar-nav>li>a {
     color: $color-text;
 }
-.navbar-nav>.active>a {
-    background-color: inherit;
-}
 
 .navbar-brand:hover, .navbar-nav>li>a:hover {
     color: $color-skyblue;
@@ -24,18 +21,29 @@
     padding: 5px 15px;
 }
 
-.brand-name {
-    font-size: 2rem;
+.navbar-brand {
+    font-size: 1.5rem;
     margin-right: 20px;
 }
 
-.navbar-link-text {
+.nav-item {
     text-transform: uppercase;
     font-weight: 800;
     padding-bottom: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
     letter-spacing: 1.2px;
 
     &.active, &:hover {
-        border-bottom: 5px solid;
+        //border-bottom: 5px solid;
+        //text-decoration: none;
     }
+}
+
+.fa-facebook-official:not(:hover) {
+    color: white;
+}
+
+.fa-facebook-official:hover {
+    color: $color-skyblue;
 }

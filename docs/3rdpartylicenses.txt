@@ -1,5 +1,5 @@
-core-js@2.5.1 MIT
-Copyright (c) 2014-2017 Denis Pushkarev
+core-js@2.5.4 MIT
+Copyright (c) 2014-2018 Denis Pushkarev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,9 +20,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/core@4.3.6 MIT
+@angular/core@4.4.6 MIT
 
-@angular/router@4.3.6 MIT
+@angular/router@4.4.6 MIT
 
 webpack@3.4.1 MIT
 Copyright JS Foundation and other contributors
@@ -47,10 +47,10 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-zone.js@0.8.17 MIT
+zone.js@0.8.23 MIT
 The MIT License
 
-Copyright (c) 2016 Google, Inc.
+Copyright (c) 2016-2018 Google, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -71,11 +71,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/platform-browser@4.3.6 MIT
+@angular/platform-browser@4.4.6 MIT
 
-@angular/common@4.3.6 MIT
+@angular/common@4.4.6 MIT
 
-css-loader@0.28.7 MIT
+css-loader@0.28.11 MIT
 Copyright JS Foundation and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -98,7 +98,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-lodash@4.17.4 MIT
+lodash@4.17.5 MIT
 Copyright JS Foundation and other contributors <https://js.foundation/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
