@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as _ from "lodash";
 declare var $: any;
 
-const NUM_PHOTOS_PER_PAGE = 6;
+const NUM_PHOTOS_PER_PAGE = 9;
 const TOTAL_NUM_PHOTOS = 66;
 
 @Component({

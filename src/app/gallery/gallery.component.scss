@@ -1,7 +1,6 @@
 @import '../../styles';
 
-.gallery
-{
+.gallery {
     display: inline-block;
     margin-top: 20px;
 }
@@ -10,7 +9,7 @@
     cursor: pointer;
 }
 
-.modal-container, .modal-container-full-width{
+.modal-container, .modal-container-full-width {
     display: flex;
 }
 
@@ -23,8 +22,7 @@
     overflow: auto;
 }
 
-.container
-{
+.container {
     height: 90%;
 }
 
