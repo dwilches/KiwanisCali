@@ -15,7 +15,9 @@
 
 .social-media-icon {
     padding: 11px;
-    color: white;
+    &:not(:hover) {
+        color: white;
+    }
     &:hover {
         color: $color-skyblue;
     }
