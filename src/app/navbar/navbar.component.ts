@@ -15,6 +15,9 @@ export class NavbarComponent implements OnInit {
       $('.navbar-nav>li>a').on('click', function(){
           $('.navbar-collapse').collapse('hide');
       });
+      $('.navbar-brand').on('click', function(){
+          $('.navbar-collapse').collapse('hide');
+      });
   }
 
 }
