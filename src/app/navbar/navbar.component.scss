@@ -1,6 +1,6 @@
 @import '../../styles';
 
-.navbar-inverse {
+.navbar-dark {
     background-color: $color-blue;
     border-color: darken($color-blue, 10%);
     background-image: url("/assets/navbar-bg.png");
@@ -15,6 +15,10 @@
 
 .social-media-icon {
     padding: 11px;
+    color: white;
+    &:hover {
+        color: $color-skyblue;
+    }
 }
 
 .navbar-logo {
@@ -33,17 +37,5 @@
     margin-left: 5px;
     margin-right: 5px;
     letter-spacing: 1.2px;
-
-    &.active, &:hover {
-        //border-bottom: 5px solid;
-        //text-decoration: none;
-    }
 }
 
-.social-media-icon:not(:hover) {
-    color: white;
-}
-
-.social-media-icon:hover {
-    color: $color-skyblue;
-}
