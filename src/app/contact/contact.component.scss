@@ -44,3 +44,21 @@ iframe {
 {
     height: 90%;
 }
+
+// lg+ screens
+@media (min-width: 992px) {
+    iframe {
+        width: 500px;
+    }
+    .contact-text {
+        margin-bottom: 1rem;
+    }
+}
+
+// xs+ screens
+iframe {
+    width: 100%;
+}
+.contact-text {
+    margin-bottom: 1rem;
+}
