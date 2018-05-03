@@ -25,24 +25,13 @@ a {
     }
 }
 
-td {
-    padding: 10px 0;
-    text-align: left;
-}
-
 iframe {
     border: solid $color-bright-golden;
     margin-right: 1rem;
 }
 
-.overflow
-{
+.overflow {
     overflow: auto;
-}
-
-.container
-{
-    height: 90%;
 }
 
 // lg+ screens
@@ -59,6 +48,11 @@ iframe {
 iframe {
     width: 100%;
 }
+
 .contact-text {
     margin-bottom: 1rem;
+}
+
+.first-row {
+    margin-top: 1rem;
 }
