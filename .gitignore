@@ -40,4 +40,8 @@ yarn-error.log
 
 # System Files
 .DS_Store
-Thumbs.db
+
+# Archivos propios de la aplicación
+credentials.json
+
+
