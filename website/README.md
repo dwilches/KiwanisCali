@@ -16,7 +16,9 @@ Fundación Kiwanis Sultana del Valle - Cali
     gsutil acl ch -u AllUsers:R gs://www.kiwaniscali.org
     gsutil web set -m index.html -e index.html gs://www.kiwaniscali.org 
 
-## Para configurar lo Google Cloud Function:
+## Para configurar la Google Cloud Function:
 
-    gcloud beta functions deploy sendMailPOST --trigger-http
-    gcloud beta functions describe sendMailPOST
+    cd cloud-functions/contact-form 
+    gcloud beta functions deploy sendMail --trigger-http
+    gcloud beta functions describe sendMail
+

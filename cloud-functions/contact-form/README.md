@@ -6,7 +6,7 @@ Debe crearse un archivo llamado `credentials.json` en el folder `contact-form` c
 ```
 {
     "user": "kiwaniscali.nodemailer@gmail.com",
-    "pass": "poner el password en text claro aqu'i"
+    "pass": "poner el AppPassword de 16 dígitos aquí"
 }
 ```
 
