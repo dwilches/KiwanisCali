@@ -24,6 +24,8 @@ THE SOFTWARE.
 
 @angular/router@4.4.6 MIT
 
+@angular/common@4.4.6 MIT
+
 webpack@3.4.1 MIT
 Copyright JS Foundation and other contributors
 
@@ -46,6 +48,8 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+@angular/forms@4.4.6 MIT
 
 zone.js@0.8.23 MIT
 The MIT License
@@ -72,8 +76,6 @@ THE SOFTWARE.
 
 
 @angular/platform-browser@4.4.6 MIT
-
-@angular/common@4.4.6 MIT
 
 css-loader@0.28.11 MIT
 Copyright JS Foundation and other contributors

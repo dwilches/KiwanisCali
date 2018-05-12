@@ -50,7 +50,7 @@ function handlePOST(req, res) {
     const {message, name, phone, email} = req.body;
 
     let textMessage = formatTextMessage(message, name, phone, email);
-    let htmlMessage = formatHtmlMessage(message, name, phone, email);
+    let htmlMessage = formatHtmlMessage(message || "", name || "", phone || "", email || "");
 
     sendWebMail(textMessage, htmlMessage)
         .catch(err => {
