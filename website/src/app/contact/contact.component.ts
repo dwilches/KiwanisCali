@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
 
     public emailAddress = "sultanadelvalle@kiwaniscali.org";
     public emailMailTo = `mailto:${this.emailAddress}`;
-    public emailFormShown = true;
+    public emailFormShown = false;
 
     public emailSent = false;
     public sendingEmail = false;
@@ -50,5 +50,11 @@ export class ContactComponent implements OnInit {
                 this.sendingEmailError = true;
                 console.error("Error occurred", err)
             });
+    }
+
+    public cancelEmail() {
+        this.sendingEmail = false;
+        this.sendingEmailError = false;
+        this.emailFormShown = false;
     }
 }

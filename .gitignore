@@ -42,6 +42,6 @@ yarn-error.log
 .DS_Store
 
 # Archivos propios de la aplicación
-credentials.json
+credentials_*.json
 
 

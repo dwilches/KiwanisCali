@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "lodash": "^4.17.10",
     "nodemailer": "^4.6.4"
   }
 }
