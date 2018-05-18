@@ -1,17 +1,33 @@
+import * as _ from "lodash";
 import {InjectionToken} from "@angular/core";
 
 export const APP_CONFIG = new InjectionToken("app.config");
 
-export class AppConfig {
+export interface Gallery {
+    id: number;
+    numPhotos: number;
+    name: string;
+}
 
-    public getNumPhotosPerPage() {
+export class AppConfig {
+    private galleries: Gallery[] = [
+        {id: 1, numPhotos: 66, name: "Día de los niños"},
+        {id: 2, numPhotos: 12, name: "Día de las madres"}
+    ];
+
+    public getNumPhotosPerPage(): number {
         return 9;
     }
 
-    public getGalleries() {
-        return {
-            1: {id: 1, numPhotos: 66, name: "Día de los niños"},
-            2: {id: 2, numPhotos: 20, name: "Día de las madres"}
-        };
+    public getGalleries(): Gallery[] {
+        return this.galleries;
     }
+
+    public getGallery(id): Gallery {
+        return _.find(this.galleries, {id: parseInt(id, 10)});
+    }
+}
+
+export function appConfigFactory() {
+    return new AppConfig();
 }

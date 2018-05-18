@@ -1,24 +1,6 @@
 @import '../../styles';
 
-.gallery {
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.page-item {
-    cursor: pointer;
-}
-
-.modal-container, .modal-container-full-width {
-    display: flex;
-}
-
-.modal-dialog {
-    width: auto;
-}
-
-.overflow
-{
+.overflow {
     overflow: auto;
 }
 
@@ -32,11 +14,10 @@ nav {
     margin-bottom: 10px;
 }
 
-a.page-link, a.page-link:hover {
-    color: $color-blue;
-}
+a {
+    color: $color-text;
 
-.big-image {
-    max-width: 100%;
-    height: auto;
+    &:hover {
+        color: $color-skyblue;
+    }
 }

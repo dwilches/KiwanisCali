@@ -12,7 +12,7 @@ import { IntroComponent } from './intro/intro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryListComponent } from './gallery-list/gallery-list.component';
-import {APP_CONFIG, AppConfig} from "./app-config";
+import {APP_CONFIG, appConfigFactory} from "./app-config";
 
 @NgModule({
     declarations: [
@@ -32,7 +32,7 @@ import {APP_CONFIG, AppConfig} from "./app-config";
         FormsModule
     ],
     providers: [
-        { provide: APP_CONFIG, useValue: new AppConfig() }
+        { provide: APP_CONFIG, useFactory: appConfigFactory }
     ],
     bootstrap: [AppComponent],
 })

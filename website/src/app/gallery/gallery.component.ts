@@ -2,7 +2,7 @@ import * as _ from "lodash";
 
 import {Component, Inject, OnInit} from '@angular/core';
 import {ActivatedRoute, ParamMap} from "@angular/router";
-import {APP_CONFIG, AppConfig} from "../app-config";
+import {APP_CONFIG, AppConfig, Gallery} from "../app-config";
 declare var $: any;
 
 @Component({
@@ -21,7 +21,7 @@ export class GalleryComponent implements OnInit {
     public pages = [];
     public currentPage = 1;
 
-    private currentGallery;
+    private currentGallery: Gallery;
 
     constructor(@Inject(APP_CONFIG) private appConfig: AppConfig,
                 private route: ActivatedRoute) {
@@ -31,8 +31,7 @@ export class GalleryComponent implements OnInit {
     ngOnInit() {
         this.route.paramMap.subscribe(
             (params: ParamMap) => {
-                this.currentGallery = this.appConfig.getGalleries()[params.get('galleryId')];
-                console.log(this.currentGallery);
+                this.currentGallery = this.appConfig.getGallery(params.get('galleryId'));
 
                 this.photos = _.range(1, this.currentGallery.numPhotos + 1);
                 const numPages = Math.ceil(this.photos.length / this.appConfig.getNumPhotosPerPage());

@@ -1,49 +1,21 @@
 
 <div class="container" role="main">
     <div class="darker-container overflow">
-        <h1>Galería</h1>
+        <h1>Galerías</h1>
 
         <div class="row">
-            <div *ngFor="let numPhoto of photos | slice:fromPhoto:toPhoto"
-                 class="col-lg-4 col-xs-12 thumbnail-container">
+            <div *ngFor="let gallery of galleries"
+                 class="col-lg-6 col-xs-12 thumbnail-container">
                 <a class="thumbnail" href="#"
-                   data-toggle="modal"
-                   data-target="#image-gallery"
-                   (click)="setSelectedPhoto(numPhoto)">
-                    <img class="img-thumbnail" [src]="getThumbUrl(numPhoto)" alt="image">
+                   [routerLink]="'/galeria/' + gallery.id">
+                    <img class="img-thumbnail" [src]="'/assets/gallery-' + gallery.id + '.jpg'" alt="image">
+                    <br/>
+                    {{gallery.name}}
                 </a>
             </div>
 
             <div class="clearfix"></div>
 
-        </div>
-        <div class="row">
-            <nav aria-label="Páginas">
-                <ul class="pagination justify-content-center">
-                    <li *ngFor="let page of pages"
-                        class="page-item"
-                        [ngClass]="{active: currentPage === page}">
-                        <a class="page-link" (click)="gotoPage(page)">{{ page }}</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <div id="image-gallery"
-             class="modal fade"
-             tabindex="-1"
-             role="dialog"
-             *ngIf="selectedImage">
-            <div class="modal-dialog modal-lg modal-dialog-centered"
-                 role="document"
-                 (click)="closeModal()">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img class="img-fluid center-block big-image"
-                             [src]="selectedImage">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
