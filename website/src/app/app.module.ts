@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { IntroComponent } from './intro/intro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { GalleryListComponent } from './gallery-list/gallery-list.component';
 
 @NgModule({
     declarations: [
@@ -20,6 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
         ContactComponent,
         IntroComponent,
         NavbarComponent,
+        GalleryListComponent,
     ],
     imports: [
         AppRoutingModule,

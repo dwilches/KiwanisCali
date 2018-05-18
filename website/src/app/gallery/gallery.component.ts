@@ -1,9 +1,15 @@
-import { Component, OnInit } from '@angular/core';
 import * as _ from "lodash";
+
+import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute, ParamMap} from "@angular/router";
 declare var $: any;
 
 const NUM_PHOTOS_PER_PAGE = 9;
-const TOTAL_NUM_PHOTOS = 66;
+
+const galleries = {
+    1: {galleryId: 1, numPhotos: 66},
+    2: {galleryId: 2, numPhotos: 20}
+};
 
 @Component({
     selector: 'app-gallery',
@@ -21,21 +27,29 @@ export class GalleryComponent implements OnInit {
     public pages = [];
     public currentPage = 1;
 
-    constructor() {
+    public currentGallery;
+
+    constructor(private route: ActivatedRoute) {
     }
 
     ngOnInit() {
-        this.photos = _.range(1, TOTAL_NUM_PHOTOS + 1);
-        const numPages = Math.ceil(this.photos.length / NUM_PHOTOS_PER_PAGE);
-        this.pages = _.range(1, numPages + 1);
+          this.route.paramMap.subscribe(
+            (params: ParamMap) => {
+                this.currentGallery = galleries[params.get('galleryId')];
+                console.log(this.currentGallery, params.get('galleryId'));
+
+                this.photos = _.range(1, this.currentGallery.numPhotos + 1);
+                const numPages = Math.ceil(this.photos.length / NUM_PHOTOS_PER_PAGE);
+                this.pages = _.range(1, numPages + 1);
+            });
     }
 
     public getThumbUrl(numPhoto) {
-        return `/assets/gallery/image (${numPhoto})_thumb.jpg`;
+        return `/assets/gallery-${this.currentGallery.galleryId}/image (${numPhoto})_thumb.jpg`;
     }
 
     public setSelectedPhoto(numPhoto) {
-        this.selectedImage = `/assets/gallery/image (${numPhoto}).jpg`;
+        this.selectedImage = `/assets/gallery-${this.currentGallery.galleryId}/image (${numPhoto}).jpg`;
     }
 
     public gotoPage(page) {
@@ -48,4 +62,3 @@ export class GalleryComponent implements OnInit {
         $('#image-gallery').modal('toggle');
     }
 }
-
