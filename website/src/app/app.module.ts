@@ -12,6 +12,7 @@ import { IntroComponent } from './intro/intro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryListComponent } from './gallery-list/gallery-list.component';
+import {APP_CONFIG, AppConfig} from "./app-config";
 
 @NgModule({
     declarations: [
@@ -30,7 +31,9 @@ import { GalleryListComponent } from './gallery-list/gallery-list.component';
         CommonModule,
         FormsModule
     ],
-    providers: [],
+    providers: [
+        { provide: APP_CONFIG, useValue: new AppConfig() }
+    ],
     bootstrap: [AppComponent],
 })
 export class AppModule { }

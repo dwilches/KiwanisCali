@@ -1,15 +1,9 @@
 import * as _ from "lodash";
 
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {ActivatedRoute, ParamMap} from "@angular/router";
+import {APP_CONFIG, AppConfig} from "../app-config";
 declare var $: any;
-
-const NUM_PHOTOS_PER_PAGE = 9;
-
-const galleries = {
-    1: {galleryId: 1, numPhotos: 66},
-    2: {galleryId: 2, numPhotos: 20}
-};
 
 @Component({
     selector: 'app-gallery',
@@ -23,39 +17,41 @@ export class GalleryComponent implements OnInit {
 
     // Calculated values
     public fromPhoto = 0;
-    public toPhoto = NUM_PHOTOS_PER_PAGE;
+    public toPhoto: number;
     public pages = [];
     public currentPage = 1;
 
-    public currentGallery;
+    private currentGallery;
 
-    constructor(private route: ActivatedRoute) {
+    constructor(@Inject(APP_CONFIG) private appConfig: AppConfig,
+                private route: ActivatedRoute) {
+        this.toPhoto = appConfig.getNumPhotosPerPage();
     }
 
     ngOnInit() {
-          this.route.paramMap.subscribe(
+        this.route.paramMap.subscribe(
             (params: ParamMap) => {
-                this.currentGallery = galleries[params.get('galleryId')];
-                console.log(this.currentGallery, params.get('galleryId'));
+                this.currentGallery = this.appConfig.getGalleries()[params.get('galleryId')];
+                console.log(this.currentGallery);
 
                 this.photos = _.range(1, this.currentGallery.numPhotos + 1);
-                const numPages = Math.ceil(this.photos.length / NUM_PHOTOS_PER_PAGE);
+                const numPages = Math.ceil(this.photos.length / this.appConfig.getNumPhotosPerPage());
                 this.pages = _.range(1, numPages + 1);
             });
     }
 
     public getThumbUrl(numPhoto) {
-        return `/assets/gallery-${this.currentGallery.galleryId}/image (${numPhoto})_thumb.jpg`;
+        return `/assets/gallery-${this.currentGallery.id}/image (${numPhoto})_thumb.jpg`;
     }
 
     public setSelectedPhoto(numPhoto) {
-        this.selectedImage = `/assets/gallery-${this.currentGallery.galleryId}/image (${numPhoto}).jpg`;
+        this.selectedImage = `/assets/gallery-${this.currentGallery.id}/image (${numPhoto}).jpg`;
     }
 
     public gotoPage(page) {
         this.currentPage = page;
-        this.fromPhoto = (this.currentPage - 1) * NUM_PHOTOS_PER_PAGE;
-        this.toPhoto = this.fromPhoto + NUM_PHOTOS_PER_PAGE;
+        this.fromPhoto = (this.currentPage - 1) * this.appConfig.getNumPhotosPerPage();
+        this.toPhoto = this.fromPhoto + this.appConfig.getNumPhotosPerPage();
     }
 
     public closeModal() {
