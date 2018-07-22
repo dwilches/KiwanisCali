@@ -10,7 +10,10 @@
                    data-toggle="modal"
                    data-target="#image-gallery"
                    (click)="setSelectedPhoto(numPhoto)">
-                    <img class="img-thumbnail" [src]="getThumbUrl(numPhoto)" alt="image">
+                    <img class="img-thumbnail"
+                         width="320"
+                         height="240"
+                         [src]="getThumbUrl(numPhoto)">
                 </a>
             </div>
 
