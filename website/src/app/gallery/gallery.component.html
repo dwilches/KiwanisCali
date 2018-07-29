@@ -33,14 +33,14 @@
         </div>
 
         <div id="image-gallery"
-             class="modal fade"
+             class="modal fade kiwanis-modal-outside"
              tabindex="-1"
              role="dialog"
              *ngIf="selectedImage">
             <div class="modal-dialog modal-lg modal-dialog-centered"
                  role="document"
                  (click)="closeModal()">
-                <div class="modal-content">
+                <div class="modal-content kiwanis-modal-inside">
                     <div class="modal-body">
                         <img class="img-fluid center-block big-image"
                              [src]="selectedImage">

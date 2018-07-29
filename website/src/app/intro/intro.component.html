@@ -9,6 +9,43 @@
             <p>
                 <img src="/assets/logo.png" />
             </p>
+
+            <h1>Noticias</h1>
+            <div class="row">
+                <span class="col-xs-12 col-lg-6"
+                      *ngFor="let news of newsList; let i = index">
+                    <a href="#"
+                       class="light-link"
+                       data-toggle="modal"
+                       data-target="#image-modal"
+                       (click)="setSelectedPhoto(i)">
+                        <img [src]="news.imagePath"
+                            width="320" 
+                            height="240"/>
+                            <br/>
+                            {{news.shortTitle}}
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div id="image-modal"
+             class="modal fade kiwanis-modal-outside"
+             tabindex="-1"
+             role="dialog"
+             *ngIf="selectedNews">
+            <div class="modal-dialog modal-lg modal-dialog-centered"
+                 role="document"
+                 (click)="closeModal()">
+                <div class="modal-content kiwanis-modal-inside"> 
+                    <div class="modal-body">
+                        <img class="img-fluid center-block big-image"
+                             [src]="selectedNews.imagePath">
+                        <br/>
+                        <span class="dark-text" [innerHTML]="selectedNews.fullTitle"></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -26,5 +26,14 @@
     text-shadow: 0 0 10px #000, 0 0 10px #000;
 }
 
-#subtitle {
+.light-link {
+    color: white;
+    &:hover {
+        color: $color-skyblue;
+    }
 }
+
+.dark-text {
+    color: black;
+}
+
