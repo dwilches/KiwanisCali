@@ -22,7 +22,7 @@
     overflow: auto;
 }
 
-nav {
+.pager-nav {
     padding-top: 10px;
     margin: auto;
 }
@@ -34,9 +34,4 @@ nav {
 
 a.page-link, a.page-link:hover {
     color: $color-blue;
-}
-
-.big-image {
-    max-width: 100%;
-    height: auto;
 }

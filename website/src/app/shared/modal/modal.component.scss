@@ -1,0 +1,44 @@
+
+.modal {
+
+    background-image: url("/assets/modal-outside-bg.png");
+
+    .modal-dialog {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-content {
+        background-color: transparent;
+        border: 0;
+        width: unset;
+    }
+
+    .modal-container, .modal-container-full-width {
+        display: flex;
+    }
+
+    .modal-body {
+        align-content: center;
+    }
+
+    .image-container {
+        background-image: url("/assets/modal-inside-bg.png");
+        padding: 10px;
+        border-radius: 3px;
+        justify-content: center;
+    }
+    .modal-footer {
+        background-color: transparent;
+    }
+
+    img {
+        border-radius: 3px;
+    }
+}
+
+.big-image {
+    max-width: 100%;
+    height: auto;
+}

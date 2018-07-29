@@ -13,7 +13,7 @@ declare var $: any;
 export class GalleryComponent implements OnInit {
 
     public photos = [];
-    public selectedImage: string;
+    public selectedImage: { imagePath: string };
 
     // Calculated values
     public fromPhoto = 0;
@@ -44,16 +44,12 @@ export class GalleryComponent implements OnInit {
     }
 
     public setSelectedPhoto(numPhoto) {
-        this.selectedImage = `/assets/gallery-${this.currentGallery.id}/image (${numPhoto}).jpg`;
+        this.selectedImage = { imagePath: `/assets/gallery-${this.currentGallery.id}/image (${numPhoto}).jpg` };
     }
 
     public gotoPage(page) {
         this.currentPage = page;
         this.fromPhoto = (this.currentPage - 1) * this.appConfig.getNumPhotosPerPage();
         this.toPhoto = this.fromPhoto + this.appConfig.getNumPhotosPerPage();
-    }
-
-    public closeModal() {
-        $('#image-gallery').modal('toggle');
     }
 }

@@ -1,0 +1,22 @@
+
+<div id="image-modal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered"
+          role="document">
+        <div class="modal-content"> 
+            <div class="modal-body"
+                  (click)="closeModal()">
+                <div class="image-container">
+                    <img class="img-fluid center-block big-image"
+                        [src]="image.imagePath">
+                </div>
+            </div>
+            <div class="modal-footer"
+                 *ngIf="image.fullTitle">
+                <span [innerHTML]="image.fullTitle"></span>
+            </div>
+        </div>
+    </div>
+</div>

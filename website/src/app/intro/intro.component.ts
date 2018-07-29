@@ -29,8 +29,4 @@ export class IntroComponent implements OnInit {
     setSelectedPhoto(photoIndex) {
       this.selectedNews = this.newsList[photoIndex];
     }
-
-    closeModal() {
-        $('#image-modal').modal('toggle');
-    }
 }

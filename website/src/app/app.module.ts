@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryListComponent } from './gallery-list/gallery-list.component';
 import {APP_CONFIG, appConfigFactory} from "./app-config";
+import { ModalComponent } from './shared/modal/modal.component';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import {APP_CONFIG, appConfigFactory} from "./app-config";
         IntroComponent,
         NavbarComponent,
         GalleryListComponent,
+        ModalComponent,
     ],
     imports: [
         AppRoutingModule,
