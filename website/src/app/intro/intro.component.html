@@ -12,7 +12,7 @@
 
             <h1>Noticias</h1>
             <div class="row">
-                <span class="col-xs-12 col-lg-6"
+                <span class="col-xs-12"
                       *ngFor="let news of newsList; let i = index">
                     <a href="#"
                        class="light-link"
@@ -21,7 +21,7 @@
                        (click)="setSelectedPhoto(i)">
                         <img [src]="news.imagePath"
                              class="img-thumbnail"
-                             width="320" 
+                             width="320"
                              height="240"/>
                             <br/>
                             {{news.shortTitle}}
