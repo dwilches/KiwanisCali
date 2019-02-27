@@ -32,3 +32,15 @@
         color: $color-skyblue;
     }
 }
+
+.extra-margin-top {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: underline;
+    color: $color-skyblue;
+    &:hover {
+        color: $color-golden;
+    }
+}

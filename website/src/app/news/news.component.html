@@ -1,0 +1,27 @@
+
+<div class="container" role="main">
+  <div class="darker-container overflow">
+      <h2>Noticias</h2>
+
+      <p class="text-justify"><b>Febrero 2019</b></p>
+      <p class="text-justify">
+        Adelantamos en nuestra Fundación Kiwanis Sultana del Valle programas para la Formación Integral de ñiños y niñas, con énfasis en valores humanos, respeto mutuo, participación con y para la comunidad y entornos ecológicos. Nuestros socios Voluntarios están permanentemente actuando para hacer del Jardín un espacio que permita el desarrollo de los niños en ambientes que mejoran su calidad de vida y el de su entorno familiar. Recuerden que siempre estamos necesitando de ustedes. Muchísimas gracias a quienes nos han apoyado y bienvenidas nuevas manos de respaldo.
+        <br/>
+        <br/>
+        Que Dios los continúe bendiciendo.
+      </p>
+      <div>
+        <img *ngFor="let image of imagesNews2"
+             [src]="getThumbUrl(2, image)" class="img-thumbnail" width="320" height="240" />
+      </div>
+
+      <p class="text-justify"><b>Enero 2019</b></p>
+      <p class="text-justify">
+        En el mes de enero, reiniciamos actividades con los niños del Jardín Kiwanis en la Sirena. Hubo convocatoria a representantes de los infantes: padre/madre y/o accidentes. Presidente de Kiwanis Sultana, Coordinadora del Jardín y Profesoras intervinieron en el Conversatorio.
+      </p>
+      <div>
+        <img *ngFor="let image of imagesNews1"
+             [src]="getThumbUrl(1, image)" class="img-thumbnail" width="320" height="240" />
+      </div>
+  </div>
+</div>

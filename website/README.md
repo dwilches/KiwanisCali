@@ -1,14 +1,20 @@
 # KiwanisCali
 Fundación Kiwanis Sultana del Valle - Cali
 
-##Para construir y subir:
+## Autenticarse con GCloud para usar el CLI
+    gcloud auth login
 
-### Con imágenes
-    ng build --prod -op docs && gsutil cp -r docs/* gs://www.kiwaniscali.org
+## Compilar la página
+    ng build --prod -op docs
 
-### Sin imágenes
-    ng build --prod -op docs && gsutil cp docs/* gs://www.kiwaniscali.org
+### Subir sin imágenes
+    gsutil cp docs/* gs://www.kiwaniscali.org
 
+### Subir con imágenes
+    gsutil cp -r docs/* gs://www.kiwaniscali.org
+
+### Subir sólo una de las carpetas de imágenes
+    gsutil cp -r docs/assets/news-2/* gs://www.kiwaniscali.org/assets/news-2 
 
 ## Para configurar el bucket con permiso de lectura pública:
 

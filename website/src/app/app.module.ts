@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryListComponent } from './gallery-list/gallery-list.component';
 import {APP_CONFIG, appConfigFactory} from "./app-config";
 import { ModalComponent } from './shared/modal/modal.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
     declarations: [
@@ -25,6 +26,7 @@ import { ModalComponent } from './shared/modal/modal.component';
         NavbarComponent,
         GalleryListComponent,
         ModalComponent,
+        NewsComponent,
     ],
     imports: [
         AppRoutingModule,

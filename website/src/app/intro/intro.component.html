@@ -10,28 +10,37 @@
                 <img src="/assets/logo.png" />
             </p>
 
-            <h1>Noticias</h1>
+            <h2 class="extra-margin-top">Últimas Noticias</h2>
+
             <div class="row">
-                <span class="col-xs-12"
-                      *ngFor="let news of newsList; let i = index">
-                    <a href="#"
-                       class="light-link"
-                       data-toggle="modal"
-                       data-target="#image-modal"
-                       (click)="setSelectedPhoto(i)">
-                        <img [src]="news.imagePath"
-                             class="img-thumbnail"
-                             width="320"
-                             height="240"/>
-                            <br/>
-                            {{news.shortTitle}}
+                <div class="col-xs-12 col-md-2">
+                    <a routerLink="/noticias">
+                        <img class="img-thumbnail" src="/assets/news-2/Image%203_thumb.jpg" />
                     </a>
-                </span>
+                </div>
+                <div class="col-xs-12 col-md-10">
+                    <p class="text-justify">
+                        <b>Febrero 2019</b>
+                        <br/>
+                        Adelantamos en nuestra Fundación Kiwanis Sultana del Valle programas para la Formación Integral de ñiños y niñas,
+                        con énfasis en ... <a routerLink="/noticias">(leer más)</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row extra-margin-top">
+                <div class="col-xs-12 col-md-2">
+                    <a routerLink="/noticias">
+                        <img class="img-thumbnail" src="/assets/news-1/Image%201_thumb.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-10">
+                    <p class="text-justify"><b>Enero 2019</b>
+                        <br/>
+                            En el mes de enero, reiniciamos actividades con los niños del Jardín Kiwanis en la Sirena. Hubo convocatoria
+                            a representantes de los infantes ... <a routerLink="/noticias">(leer más)</a>
+                    </p>
+                </div>
             </div>
         </div>
-
-        <app-modal *ngIf="selectedNews"
-                   [image]="selectedNews">
-        </app-modal>
     </div>
 </div>
