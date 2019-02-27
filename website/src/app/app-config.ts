@@ -16,7 +16,7 @@ export class AppConfig {
     ];
 
     public getNumPhotosPerPage(): number {
-        return 9;
+        return 6;
     }
 
     public getGalleries(): Gallery[] {
