@@ -11,8 +11,9 @@ export interface Gallery {
 
 export class AppConfig {
     private galleries: Gallery[] = [
-        {id: 1, numPhotos: 66, name: "Día de los niños"},
-        {id: 2, numPhotos: 12, name: "Día de las madres"}
+        {id: 3, numPhotos: 24, name: "Vacaciones Recreativas 2019"},
+        {id: 1, numPhotos: 66, name: "Día de los niños 2018"},
+        {id: 2, numPhotos: 12, name: "Día de las madres 2018"}
     ];
 
     public getNumPhotosPerPage(): number {

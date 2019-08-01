@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0259bc-51a2-44c8-b692-d01a2fe74cfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/src/assets/gallery-3/VacacionesRecreativasThumb.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/app/app-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/app/app-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/app/intro/intro.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/app/intro/intro.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/app/news/news.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/app/news/news.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -19,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/src/app/intro/intro.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="379">
+              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -119,7 +124,6 @@
         <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials_support.json" />
         <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.test.js" />
         <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.test.js" />
         <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.js" />
         <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.scss" />
@@ -128,15 +132,16 @@
         <option value="$PROJECT_DIR$/website/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/website/src/app/app.config.ts" />
         <option value="$PROJECT_DIR$/website/src/app/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts" />
         <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.ts" />
         <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.scss" />
-        <option value="$PROJECT_DIR$/website/src/app/app-config.ts" />
         <option value="$PROJECT_DIR$/website/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/website/src/styles.scss" />
         <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.scss" />
         <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.html" />
         <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/app-config.ts" />
         <option value="$PROJECT_DIR$/website/src/app/news/news.component.html" />
         <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.html" />
       </list>
@@ -195,6 +200,34 @@
               <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
               <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,17 +320,18 @@
       <workItem from="1532295106024" duration="924000" />
       <workItem from="1532307362506" duration="4000" />
       <workItem from="1532307465417" duration="279000" />
-      <workItem from="1564631319595" duration="3868000" />
+      <workItem from="1564631319595" duration="5960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65783000" />
+    <option name="totallyTimeSpent" value="67875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19557196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19557196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -310,7 +344,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45513514" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45513514" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299544" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -339,6 +373,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -349,25 +390,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/assets/gallery-2/image (3)_thumb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/app/app-config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/src/app/news/news.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/src/app/intro/intro.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="379">
+          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
         </state>
       </provider>
     </entry>
