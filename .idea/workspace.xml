@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e0259bc-51a2-44c8-b692-d01a2fe74cfb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/src/app/intro/intro.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="48" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ce</find>
+      <find>inver</find>
+      <find>gigantic-text</find>
+      <find>img-thum</find>
+      <find>td</find>
+      <find>.darker-containe</find>
+      <find>form</find>
+      <find>messageBody</find>
+      <find>kiwaniscali.nodemailer@gmail.com</find>
+      <find>formatTextMessage</find>
+      <find>sendMail</find>
+      <find>sendwe</find>
+      <find>sendCustomerMail</find>
+      <find>_.</find>
+      <find>mail_op</find>
+      <find>nodemailer</find>
+      <find>sendSupportEmail</find>
+      <find>.stack</find>
+      <find>stack</find>
+      <find>contain</find>
+      <find>toPhoto</find>
+      <find>lodash&quot;</find>
+      <find>currentGallery</find>
+      <find>page-item</find>
+      <find>gallery</find>
+      <find>overflow</find>
+      <find>thumbnail-container</find>
+      <find>big-image</find>
+      <find>darker-container</find>
+      <find>letter-with-shadow</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sendWebMail</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/intro/intro.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/intro/intro.component.html" />
+        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.html" />
+        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/about/about.component.html" />
+        <option value="$PROJECT_DIR$/src/app/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/about/about.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.component.html" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
+        <option value="$PROJECT_DIR$/src/styles.scss" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/emails/mars/html.pug" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/emails/mars/subject.pug" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/README.me" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials.json" />
+        <option value="$PROJECT_DIR$/website/README.md" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/README.md" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/.gcloudignore" />
+        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.ts" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials_support.json" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.test.js" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.test.js" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.js" />
+        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.scss" />
+        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials_web.json" />
+        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.html" />
+        <option value="$PROJECT_DIR$/website/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/app.config.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.scss" />
+        <option value="$PROJECT_DIR$/website/src/app/app-config.ts" />
+        <option value="$PROJECT_DIR$/website/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/website/src/styles.scss" />
+        <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.scss" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.html" />
+        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.html" />
+        <option value="$PROJECT_DIR$/website/src/app/news/news.component.html" />
+        <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-6" />
+    <option name="width" value="3852" />
+    <option name="height" value="2098" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/website/node_modules/tslint" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/website/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-functions/contact-form" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e0259bc-51a2-44c8-b692-d01a2fe74cfb" name="Default" comment="" />
+      <created>1522559067194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522559067194</updated>
+      <workItem from="1522559068951" duration="9104000" />
+      <workItem from="1522986366951" duration="1326000" />
+      <workItem from="1525145894660" duration="1145000" />
+      <workItem from="1525220547935" duration="1867000" />
+      <workItem from="1525222485138" duration="132000" />
+      <workItem from="1525231675143" duration="1817000" />
+      <workItem from="1525233513260" duration="1830000" />
+      <workItem from="1525235365376" duration="1820000" />
+      <workItem from="1525237233247" duration="964000" />
+      <workItem from="1525316697522" duration="659000" />
+      <workItem from="1525320692595" duration="1169000" />
+      <workItem from="1525918813246" duration="286000" />
+      <workItem from="1525919125030" duration="1849000" />
+      <workItem from="1525920986095" duration="2297000" />
+      <workItem from="1525924749855" duration="1797000" />
+      <workItem from="1525926558300" duration="1797000" />
+      <workItem from="1525928829335" duration="1807000" />
+      <workItem from="1525930646833" duration="1317000" />
+      <workItem from="1526003017178" duration="1798000" />
+      <workItem from="1526004831610" duration="1796000" />
+      <workItem from="1526006640238" duration="1796000" />
+      <workItem from="1526008470531" duration="1795000" />
+      <workItem from="1526010295707" duration="1796000" />
+      <workItem from="1526012104202" duration="1796000" />
+      <workItem from="1526013911658" duration="1041000" />
+      <workItem from="1526100959727" duration="75000" />
+      <workItem from="1526143488191" duration="1603000" />
+      <workItem from="1526145392000" duration="1797000" />
+      <workItem from="1526147201411" duration="1841000" />
+      <workItem from="1526149062363" duration="1250000" />
+      <workItem from="1526156531877" duration="1000" />
+      <workItem from="1526184187830" duration="71000" />
+      <workItem from="1526184284464" duration="3000" />
+      <workItem from="1526274662926" duration="11000" />
+      <workItem from="1526274684352" duration="2000" />
+      <workItem from="1526357867098" duration="172000" />
+      <workItem from="1526358534639" duration="1832000" />
+      <workItem from="1526613545914" duration="7235000" />
+      <workItem from="1527135674774" duration="14000" />
+      <workItem from="1532295106024" duration="924000" />
+      <workItem from="1532307362506" duration="4000" />
+      <workItem from="1532307465417" duration="279000" />
+      <workItem from="1564631319595" duration="3868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65783000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="0" width="1928" height="1054" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19557196" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32955715" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45513514" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299544" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/website/src/app/news/news.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/assets/news-3/BonoDonacionThumb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="48" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/app/news/news.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/src/app/intro/intro.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
