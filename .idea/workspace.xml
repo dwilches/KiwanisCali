@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0259bc-51a2-44c8-b692-d01a2fe74cfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/protractor.conf.js" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/dist/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,107 +19,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ce</find>
-      <find>inver</find>
-      <find>gigantic-text</find>
-      <find>img-thum</find>
-      <find>td</find>
-      <find>.darker-containe</find>
-      <find>form</find>
-      <find>messageBody</find>
-      <find>kiwaniscali.nodemailer@gmail.com</find>
-      <find>formatTextMessage</find>
-      <find>sendMail</find>
-      <find>sendwe</find>
-      <find>sendCustomerMail</find>
-      <find>_.</find>
-      <find>mail_op</find>
-      <find>nodemailer</find>
-      <find>sendSupportEmail</find>
-      <find>.stack</find>
-      <find>stack</find>
-      <find>contain</find>
-      <find>toPhoto</find>
-      <find>lodash&quot;</find>
-      <find>currentGallery</find>
-      <find>page-item</find>
-      <find>gallery</find>
-      <find>overflow</find>
-      <find>thumbnail-container</find>
-      <find>big-image</find>
-      <find>darker-container</find>
-      <find>letter-with-shadow</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>sendWebMail</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/intro/intro.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/intro/intro.component.html" />
-        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.html" />
-        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/about/about.component.html" />
-        <option value="$PROJECT_DIR$/src/app/footer/footer.component.html" />
-        <option value="$PROJECT_DIR$/src/app/app.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/src/app/gallery/gallery.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/about/about.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.component.scss" />
-        <option value="$PROJECT_DIR$/src/styles.scss" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/emails/mars/html.pug" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/emails/mars/subject.pug" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/README.me" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials.json" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/README.md" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/.gcloudignore" />
-        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.ts" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials_support.json" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.test.js" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/sendMail.js" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.test.js" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/index.js" />
-        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.scss" />
-        <option value="$PROJECT_DIR$/cloud-functions/contact-form/credentials_web.json" />
-        <option value="$PROJECT_DIR$/website/src/app/contact/contact.component.html" />
-        <option value="$PROJECT_DIR$/website/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/website/src/app/app.config.ts" />
-        <option value="$PROJECT_DIR$/website/src/app/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.ts" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.scss" />
-        <option value="$PROJECT_DIR$/website/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/website/src/styles.scss" />
-        <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.scss" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery/gallery.component.html" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts" />
-        <option value="$PROJECT_DIR$/website/src/app/app-config.ts" />
-        <option value="$PROJECT_DIR$/website/src/app/news/news.component.html" />
-        <option value="$PROJECT_DIR$/website/src/app/intro/intro.component.html" />
-        <option value="$PROJECT_DIR$/website/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/website/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
@@ -155,59 +60,19 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KiwanisCali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KiwanisCali" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/website/node_modules/tslint" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/website/node_modules/typescript/lib" />
@@ -288,114 +153,23 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68279000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1054" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19557196" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32955715" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45513514" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299544" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/website/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/website/src/app/news/news.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/assets/news-3/BonoDonacionThumb.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/assets/gallery-2/image (3)_thumb.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/app/gallery-list/gallery-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/app/app-config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/app/news/news.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/src/app/intro/intro.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
